@@ -1,0 +1,12 @@
+CompileFlags:
+  CompilationDatabase: build
+  Compiler: clang++
+  Add:
+    - -std=c++23
+    - -stdlib=libc++
+    - -fuse-ld=lld
+    - -Wall
+    - -Wextra
+    - -Wpedantic
+    - -Wno-unused-parameter
+    - -IC:\Users\brass\Source\Workspaces\Main\source\include

@@ -1,0 +1,53 @@
+{
+    "folders": [
+        {
+            "path": "."
+        },
+        {
+            "path": "C:\\Users\\brass\\OneDrive\\Desktop\\Documents\\PowerShell\\Scripts\\PSenhance"
+        },
+        {
+            "path": "C:\\Users\\brass\\OneDrive\\Desktop\\Documents\\ZShell\\Scripts\\Zenhance"
+        },
+        {
+            "path": "../llvm-project"
+        }
+    ],
+    "settings": {
+        "files.associations": {
+            ".clangd": "yaml",
+            ".clang-format": "yaml",
+            ".clang-tidy": "yaml"
+        },
+        "powershell.powerShellAdditionalExePaths": {
+            "PowerShell Core": "C:\\Program Files\\PowerShell\\7\\pwsh.exe"
+        },
+        "clangd.enable": true,
+        "clangd.path": "C:\\Program Files\\LLVM\\bin\\clangd.exe",
+        "clang-format.executable": "clang-format",
+        "clang-tidy.executable": "clang-tidy",
+        "editor.semanticHighlighting.enabled": true,
+        "editor.semanticTokenColorCustomizations": {
+            "enabled": true,
+            "rules": {
+                "variable": "#FFFFFF",
+                "macro": "#daa2ff",
+                "function": "#daa2ff",
+                "parameter": "#26f8b6",
+                "enum": "#24a6fc",
+                "enumMember": "#707070",
+                "class": "#fde352",
+                "struct": "#fde352",
+                "interface": "#fde352",
+                "method": "#daa2ff",
+                "string": "#26f8b6"
+            }
+        },
+        "[cpp]": {
+            "editor.semanticHighlighting.enabled": true
+        },
+        "editor.tokenColorCustomizations": {
+        },
+        "powershell.cwd": "Main"
+    }
+}
