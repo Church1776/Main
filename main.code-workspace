@@ -4,10 +4,10 @@
             "path": "."
         },
         {
-            "path": "C:\\Users\\brass\\OneDrive\\Desktop\\Documents\\PowerShell\\Scripts\\PSenhance"
+            "path": "..\\..\\..\\OneDrive\\Desktop\\Documents\\PowerShell\\Scripts\\PSenhance"
         },
         {
-            "path": "C:\\Users\\brass\\OneDrive\\Desktop\\Documents\\ZShell\\Scripts\\Zenhance"
+            "path": "..\\..\\..\\OneDrive\\Desktop\\Documents\\ZShell\\Scripts\\Zenhance"
         },
         {
             "path": "../llvm-project"
