@@ -1,0 +1,34 @@
+[core]
+	sshCommand = C:/msys64/usr/bin/ssh.exe
+	editor = 'C:\\Users\\d.sprehe\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code' --wait
+[alias]
+	br = branch
+	cf = config
+	cfg = config --global
+	ck = checkout
+	cm = commit -m
+	cp = cherry-pick
+	df = diff HEAD
+	dfu = diff
+	dfs = diff --staged
+	graph = log --graph --decorate --full-diff --stat --patch
+	lg = log --oneline --decorate
+	mff = merge --ff-only
+	mg = merge
+	rb = rebase
+	rff = rebase --ff-only
+	rs = reset
+	st = status --short --branch --untracked-files --show-stash
+	stat = status --branch --untracked-files --show-stash
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[user]
+	name = Church1776
+	email = brassmajor@gmail.com
+[init]
+	defaultBranch = master
+[log]
+	

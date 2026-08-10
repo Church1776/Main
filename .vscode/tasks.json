@@ -1,0 +1,52 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Configure CMake/Ninja Build Settings",
+            "type": "shell",
+            "command": "${env:LOCALAPPDATA}\\Programs\\CMake\\bin\\cmake.exe",
+            "args": [
+                "-S", "${workspaceFolder}\\${input:sourceRoot}",
+                "-B", "${workspaceFolder}\\${input:buildRoot}\\${input:buildArch}\\${input:buildType}\\${input:sourceRoot}",
+                "-D", "CMAKE_BUILD_TYPE=${input:buildType}",
+                "-G", "Ninja",
+            ],
+        }
+    ],
+    "inputs": [
+        {
+            "id": "sourceRoot",
+            "type": "promptString",
+            "description": "Select the source root directory",
+            "default": "source"
+        },
+        {
+            "id": "buildRoot",
+            "type": "promptString",
+            "description": "Select the build root directory",
+            "default": "build"
+        },
+        {
+            "id": "buildArch",
+            "type": "pickString",
+            "description": "Select the build architecture",
+            "options": [
+                "x86",
+                "x64",
+                "arm",
+                "arm64"
+            ],
+            "default": "x64"
+        },
+        {
+            "id": "buildType",
+            "type": "pickString",
+            "description": "Select the build type",
+            "options": [
+                "Debug",
+                "Release"
+            ],
+            "default": "Release"
+        }
+    ]
+}

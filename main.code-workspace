@@ -1,52 +1,97 @@
 {
     "folders": [
         {
-            "path": "."
-        },
+            "path": ".",
+            "name": "Main"
+        }//*/,
         {
-            "path": "..\\..\\..\\OneDrive\\Desktop\\Documents\\PowerShell\\Scripts\\PSenhance"
-        },
+            "path": "C:\\Users\\d.sprehe\\Documents\\ZShell\\Scripts\\Zenhance"
+        }/* /,
         {
-            "path": "..\\..\\..\\OneDrive\\Desktop\\Documents\\ZShell\\Scripts\\Zenhance"
-        },
+            "path": "C:\\Users\\d.sprehe\\Documents\\PowerShell\\Scripts\\PSenhance"
+        }//*/,
         {
-            "path": "../llvm-project"
-        }
+            "path": "../lledge"
+        }//*/
     ],
     "settings": {
         "files.associations": {
-            ".clangd": "yaml",
             ".clang-format": "yaml",
-            ".clang-tidy": "yaml"
+            ".clang-tidy": "yaml",
+            ".clangd": "yaml",
+            "*.inc": "cpp",
+            "*.inl": "cpp"
         },
-        "powershell.powerShellAdditionalExePaths": {
-            "PowerShell Core": "C:\\Program Files\\PowerShell\\7\\pwsh.exe"
-        },
+        "hediet.vscode-drawio.appearance": "automatic",
+        //"clangd.path": "C:\\msys64\\clang64\\bin\\clangd.exe",
+        "clangd.path": "C:\\Users\\d.sprehe\\AppData\\Local\\Programs\\LLVM\\bin\\clangd.exe",
         "clangd.enable": true,
-        "clangd.path": "C:\\Program Files\\LLVM\\bin\\clangd.exe",
-        "clang-format.executable": "clang-format",
-        "clang-tidy.executable": "clang-tidy",
         "editor.semanticHighlighting.enabled": true,
         "editor.semanticTokenColorCustomizations": {
-            "enabled": true,
             "rules": {
-                "variable": "#FFFFFF",
-                "macro": "#daa2ff",
-                "function": "#daa2ff",
-                "parameter": "#26f8b6",
-                "enum": "#24a6fc",
-                "enumMember": "#707070",
-                "class": "#fde352",
-                "struct": "#fde352",
-                "interface": "#fde352",
-                "method": "#daa2ff",
-                "string": "#26f8b6"
+                "class": "#ffef63",
+                "enum": "#5fb2fa",
+                "function": "#df9fff",
+                "enumMember": "#b4b4b4",
+                "namespace": "#ffa846",
+                "struct": "#ffef63",
+                "variable": "#fefefe",
+                "property": "#b4b4b4",
+                "parameter": "#60ffc5",
+                "macro": "#df9fff",
+                "method": "#df9fff"
             }
         },
-        "[cpp]": {
-            "editor.semanticHighlighting.enabled": true
-        },
-        "editor.tokenColorCustomizations": {
+        "terminal.integrated.defaultProfile.windows": "PowerShell 7",
+        "terminal.integrated.profiles.windows": {
+            "PowerShell 7": {
+                "path": "C:\\Program Files\\WindowsApps\\Microsoft.PowerShell_7.6.3.0_x64__8wekyb3d8bbwe\\pwsh.exe",
+                "icon": "terminal-powershell"
+            },
+            "Command Prompt": {
+                "path": [
+                    "${env:windir}\\Sysnative\\cmd.exe",
+                    "${env:windir}\\System32\\cmd.exe"
+                ],
+                "args": [],
+                "icon": "terminal-cmd"
+            },
+            "Clang64 (MSYS)": {
+                "overrideName": true,
+                "path": "msys",
+                "args": ["-e", "clang64", "-s", "zsh"],
+                "icon": "terminal-git-bash"
+            },
+            "ClangArm64 (MSYS)": {
+                "overrideName": true,
+                "path": "msys",
+                "args": ["-e", "clangarm64", "-s", "zsh"],
+                "icon": "terminal-git-bash"
+            },
+            "MinGW64 (MSYS)": {
+                "overrideName": true,
+                "path": "msys",
+                "args": ["-e", "mingw64", "-s", "zsh"],
+                "icon": "terminal-git-bash"
+            },
+            "MinGW32 (MSYS)": {
+                "overrideName": true,
+                "path": "msys",
+                "args": ["-e", "mingw32", "-s", "zsh"],
+                "icon": "terminal-git-bash"
+            },
+            "UCRT64 (MSYS)": {
+                "overrideName": true,
+                "path": "msys",
+                "args": ["-e", "ucrt64", "-s", "zsh"],
+                "icon": "terminal-git-bash"
+            },
+            "Msys2 Shell": {
+                "overrideName": true,
+                "path": "msys",
+                "args": ["-s", "zsh"],
+                "icon": "terminal-git-bash"
+            }
         },
         "powershell.cwd": "Main"
     }
