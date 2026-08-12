@@ -6,10 +6,10 @@
         }/*/,
         {
             "path": "C:\\Users\\d.sprehe\\Documents\\ZShell\\Scripts\\Zenhance"
-        }/* /,
+        }//* /,
         {
             "path": "C:\\Users\\d.sprehe\\Documents\\PowerShell\\Scripts\\PSenhance"
-        }//*/,
+        },//*/,
         {
             "path": "../lledge"
         }//*/
@@ -26,6 +26,7 @@
         //"clangd.path": "C:\\msys64\\clang64\\bin\\clangd.exe",
         "clangd.path": "C:\\Users\\d.sprehe\\AppData\\Local\\Programs\\LLVM\\bin\\clangd.exe",
         "clangd.enable": true,
+        "cmake.cmakePath": "cmake",
         "editor.semanticHighlighting.enabled": true,
         "editor.semanticTokenColorCustomizations": {
             "rules": {
