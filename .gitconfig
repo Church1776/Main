@@ -24,6 +24,8 @@
 	lg = log --oneline --decorate
 	mff = merge --ff-only
 	mg = merge
+	pl = pull
+	ps = push
 	rb = rebase
 	rff = rebase --ff-only
 	rs = reset
