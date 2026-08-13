@@ -1,14 +1,21 @@
 [core]
-	sshCommand = C:/msys64/usr/bin/ssh.exe
 	# For Windows
+		sshCommand = 'C:\\windows\\System32\\OpenSSH\\ssh.exe'
 		editor = 'C:\\Users\\d.sprehe\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code' --wait
+	# For Msys2
+	#	sshCommand = 'C:\\msys64\\usr\\bin\\ssh.exe'
+	#	editor = 'C:\\Users\\d.sprehe\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code' --wait
 	# For WSL
+	#	sshCommand = /usr/bin/ssh
 	#	editor = '/home/brass/.vscode-server/bin/e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/bin/remote-cli/code' --wait
 	# For Linux
+	#	sshCommand = /usr/bin/ssh
 	#	editor = ''
 	# For Mac
+	#	sshCommand = /usr/bin/ssh
 	#	editor = ''
 	# For BSD
+	#	sshCommand = /usr/bin/ssh
 	#	editor = ''
 [alias]
 	br = branch
