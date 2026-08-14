@@ -44,10 +44,13 @@
             "*.inl": "cpp"
         },
         "hediet.vscode-drawio.appearance": "automatic",
+        "clangd.path": "C:\\Tools\\LLVM\\bin\\clangd.exe",
         //"clangd.path": "C:\\msys64\\clang64\\bin\\clangd.exe",
-        "clangd.path": "C:\\Users\\d.sprehe\\AppData\\Local\\Programs\\LLVM\\bin\\clangd.exe",
+        //"clangd.path": "/usr/bin/clangd",
         "clangd.enable": true,
-        "cmake.cmakePath": "cmake",
+        "cmake.cmakePath": "C:\\Tools\\CMake\\bin\\cmake.exe",
+        //"cmake.cmakePath": "C:\\msys64\\usr\\bin\\cmake.exe",
+        //"cmake.cmakePath": "/usr/bin/cmake",
         "editor.semanticHighlighting.enabled": true,
         "editor.semanticTokenColorCustomizations": {
             "rules": {
@@ -116,5 +119,15 @@
             }
         },
         "powershell.cwd": "Main"
+    },
+    "tasks": {
+        "version": "2.0.0",
+        "tasks": [
+            {
+                "label": "Configure Workspace Settings for Windows",
+                "type": "process",
+                "command": "pwsh",
+            }
+        ]
     }
 }
