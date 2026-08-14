@@ -2,20 +2,23 @@
     "folders": [
         {
             "name": "Main",
-            "path": ".",
-        }//*
-        ,
+            "path": "."
+        },//*,
         {
             "name": "Zenhance",
             "path": "..\\..\\..\\Documents\\ZShell\\Scripts\\Zenhance"
             //"path": "../../../.config/zsh/zenhance"
-        },
-        {//* /
+        },//* /
+        {
             "name": "PSenhance",
             "path": "..\\..\\..\\Documents\\PowerShell\\Scripts\\PSenhance"
             //"path": "../../../.config/pwsh/psenhance"
+        },//* /
+        {
+            "name": "Msys2",
+            "path": "C:\\msys64"
         },
-        {//* /
+        {
             "name": "LLEdge",
             "path": "..\\LLEdge"            
             //"path": "../lledge"
@@ -25,13 +28,25 @@
         "vsicons.associations.files": [
             {
                 "icon": "clangd",
-                "extensions": [".clangd", ".clang-format", ".clang-tidy", ".clang-tidy-ignore", ".clang-tidy-apply-replacements"],
+                "extensions": [
+                    ".clangd",
+                    ".clangd.template",
+                    ".clang-format",
+                    ".clang-format-ignore",
+                    ".clang-tidy",
+                    ".clang-tidy-ignore",
+                    ".clang-tidy-apply-replacements"
+                ],
                 "format": "svg"
             },
             {
                 "icon": "vscode",
-                "folder": ".vscode",
-                "extensions": ["json", "jsonc", "jsonl"],
+                "extensions": ["settings.json", "tasks.json", "launch.json"],
+                "format": "svg"
+            },
+            {
+                "icon": "json",
+                "extensions": [".json"],
                 "format": "svg"
             }
         ],
@@ -44,13 +59,20 @@
             "*.inl": "cpp"
         },
         "hediet.vscode-drawio.appearance": "automatic",
-        "clangd.path": "C:\\Tools\\LLVM\\bin\\clangd.exe",
-        //"clangd.path": "C:\\msys64\\clang64\\bin\\clangd.exe",
-        //"clangd.path": "/usr/bin/clangd",
         "clangd.enable": true,
+        /*/ ### Windows Paths
+        "clangd.path": "C:\\Tools\\LLVM\\bin\\clangd.exe",
         "cmake.cmakePath": "C:\\Tools\\CMake\\bin\\cmake.exe",
-        //"cmake.cmakePath": "C:\\msys64\\usr\\bin\\cmake.exe",
-        //"cmake.cmakePath": "/usr/bin/cmake",
+        "git.path": "C:\\Tools\\Git\\bin\\git.exe",
+        //* / ### Msys2 Paths
+        "clangd.path": "C:\\msys64\\clang64\\bin\\clangd.exe",
+        "cmake.cmakePath": "C:\\msys64\\usr\\bin\\cmake.exe",
+        "git.path": "C:\\msys64\\usr\\bin\\git.exe",
+        //* / ### Linux Paths
+        "clangd.path": "/usr/bin/clangd",
+        "cmake.cmakePath": "/usr/bin/cmake",
+        "git.path": "/usr/bin/git",
+        //*/
         "editor.semanticHighlighting.enabled": true,
         "editor.semanticTokenColorCustomizations": {
             "rules": {
@@ -119,15 +141,5 @@
             }
         },
         "powershell.cwd": "Main"
-    },
-    "tasks": {
-        "version": "2.0.0",
-        "tasks": [
-            {
-                "label": "Configure Workspace Settings for Windows",
-                "type": "process",
-                "command": "pwsh",
-            }
-        ]
     }
 }

@@ -5,6 +5,7 @@
 
 source/
 build/
+*.code-workspace
 
 ## Undo the '#' at the beginning to use this file or create your own.
 # # User-specific files
