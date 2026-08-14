@@ -1,20 +1,41 @@
 {
     "folders": [
         {
+            "name": "Main",
             "path": ".",
-            "name": "Main"
-        }/*/,
+        }//*
+        ,
         {
-            "path": "C:\\Users\\d.sprehe\\Documents\\ZShell\\Scripts\\Zenhance"
-        },//*/,
-        {
-            "path": "C:\\Users\\d.sprehe\\Documents\\PowerShell\\Scripts\\PSenhance"
-        },//*/,
-        {
-            "path": "../lledge"
+            "name": "Zenhance",
+            "path": "..\\..\\..\\Documents\\ZShell\\Scripts\\Zenhance"
+            //"path": "../../../.config/zsh/zenhance"
+        },
+        {//* /
+            "name": "PSenhance",
+            "path": "..\\..\\..\\Documents\\PowerShell\\Scripts\\PSenhance"
+            //"path": "../../../.config/pwsh/psenhance"
+        },
+        {//* /
+            "name": "LLEdge",
+            "path": "..\\LLEdge"            
+            //"path": "../lledge"
         }//*/
     ],
     "settings": {
+        "vsicons.associations.files": [
+            {
+                "icon": "clangd",
+                "extensions": [".clangd", ".clang-format", ".clang-tidy", ".clang-tidy-ignore", ".clang-tidy-apply-replacements"],
+                "format": "svg"
+            },
+            {
+                "icon": "vscode",
+                "folder": ".vscode",
+                "extensions": ["json", "jsonc", "jsonl"],
+                "format": "svg"
+            }
+        ],
+        "vsicons.presets.hideExplorerArrows": true,
         "files.associations": {
             ".clang-format": "yaml",
             ".clang-tidy": "yaml",
