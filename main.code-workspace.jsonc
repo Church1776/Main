@@ -3,22 +3,22 @@
         {
             "name": "Main",
             "path": "."
-        },//*,
-        {
+        }/**///
+        ,{
+            "name": "Msys2",
+            "path": "C:\\msys64"
+        }/**///
+        ,{
             "name": "Zenhance",
             "path": "..\\..\\..\\Documents\\ZShell\\Scripts\\Zenhance"
             //"path": "../../../.config/zsh/zenhance"
-        },//* /
-        {
+        }/**///
+        ,{
             "name": "PSenhance",
             "path": "..\\..\\..\\Documents\\PowerShell\\Scripts\\PSenhance"
             //"path": "../../../.config/pwsh/psenhance"
-        },//* /
-        {
-            "name": "Msys2",
-            "path": "C:\\msys64"
-        },
-        {
+        }/**///
+        ,{
             "name": "LLEdge",
             "path": "..\\LLEdge"            
             //"path": "../lledge"
@@ -60,15 +60,15 @@
         },
         "hediet.vscode-drawio.appearance": "automatic",
         "clangd.enable": true,
-        /*/ ### Windows Paths
+        /** /// Windows Paths
         "clangd.path": "C:\\Tools\\LLVM\\bin\\clangd.exe",
         "cmake.cmakePath": "C:\\Tools\\CMake\\bin\\cmake.exe",
         "git.path": "C:\\Tools\\Git\\bin\\git.exe",
-        //* / ### Msys2 Paths
+        /**/// Msys2 Paths
         "clangd.path": "C:\\msys64\\clang64\\bin\\clangd.exe",
         "cmake.cmakePath": "C:\\msys64\\usr\\bin\\cmake.exe",
         "git.path": "C:\\msys64\\usr\\bin\\git.exe",
-        //* / ### Linux Paths
+        /** /// Linux Paths
         "clangd.path": "/usr/bin/clangd",
         "cmake.cmakePath": "/usr/bin/cmake",
         "git.path": "/usr/bin/git",
@@ -89,9 +89,9 @@
                 "method": "#df9fff"
             }
         },
-        "terminal.integrated.defaultProfile.windows": "PowerShell 7",
+        "terminal.integrated.defaultProfile.windows": "PowerShell",
         "terminal.integrated.profiles.windows": {
-            "PowerShell 7": {
+            "PowerShell": {
                 "path": "C:\\Program Files\\WindowsApps\\Microsoft.PowerShell_7.6.3.0_x64__8wekyb3d8bbwe\\pwsh.exe",
                 "icon": "terminal-powershell"
             },
