@@ -1,3 +1,4 @@
 {
-    "clangd.path": "clangd"
+    "clangd.path": "clangd",
+    "cmake.cmakePath": "cmake",
 }
