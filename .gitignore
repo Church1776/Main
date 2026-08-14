@@ -7,6 +7,7 @@
 build/
 *.code-workspace
 .clangd
+.gitconfig
 
 ## Undo the '#' at the beginning to use this file or create your own.
 # # User-specific files
