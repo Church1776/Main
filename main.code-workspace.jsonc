@@ -30,7 +30,6 @@
                 "icon": "clangd",
                 "extensions": [
                     ".clangd",
-                    ".clangd.template",
                     ".clang-format",
                     ".clang-format-ignore",
                     ".clang-tidy",
@@ -40,13 +39,15 @@
                 "format": "svg"
             },
             {
-                "icon": "vscode",
-                "extensions": ["settings.json", "tasks.json", "launch.json"],
-                "format": "svg"
-            },
-            {
                 "icon": "json",
                 "extensions": [".json"],
+                "format": "svg"
+            }
+        ],
+        "vsicons.associations.folders": [
+            {
+                "icon": "script",
+                "extensions": ["scr"],
                 "format": "svg"
             }
         ],
