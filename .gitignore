@@ -6,6 +6,7 @@
 source/
 build/
 *.code-workspace
+.clangd
 
 ## Undo the '#' at the beginning to use this file or create your own.
 # # User-specific files
