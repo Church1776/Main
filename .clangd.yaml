@@ -9,4 +9,5 @@ CompileFlags:
     - -Wextra
     - -Wpedantic
     - -Wno-unused-parameter
-    - -IC:\Users\brass\Source\Workspaces\Main\source\include
+    - -I<path-to-workspace>\Main\source\include
+    - -I<path-to-workspace>/main/src/incl
