@@ -6,6 +6,7 @@
 
 build/
 *.code-workspace
+*.code-profile
 .clangd
 .gitconfig
 
