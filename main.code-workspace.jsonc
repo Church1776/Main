@@ -5,118 +5,22 @@
             "path": "."
         }/**///
         ,{
-            "name": "Msys2",
-            "path": "/",
-        }/**///
-        ,{
-            "name": "Zenhance",
-            "path": "/home/d.sprehe/config/zsh/zenhance"
+            "name": "Folder 2",
+            "path": ""
         }/** ///
         ,{
-            "name": "PSenhance",
-            "path": "..\\..\\..\\Documents\\PowerShell\\Scripts\\PSenhance"
-            //"path": "../../../.config/pwsh/psenhance"
+            "name": "Folder 3",
+            "path": ""
         }/** ///
         ,{
-            "name": "LLEdge",
-            "path": "..\\LLEdge"            
-            //"path": "../lledge"
+            "name": "Folder 4",
+            "path": ""
+        }/** ///
+        ,{
+            "name": "Etcetera",
+            "path": ""
         }//*/
     ],
     "settings": {
-        "vsicons.associations.files": [
-            {
-                "icon": "clangd",
-                "extensions": [
-                    ".clangd",
-                    ".clang-format",
-                    ".clang-format-ignore",
-                    ".clang-tidy",
-                    ".clang-tidy-ignore",
-                    ".clang-tidy-apply-replacements"
-                ],
-                "format": "svg"
-            },
-            {
-                "icon": "json",
-                "extensions": [".json"],
-                "format": "svg"
-            }
-        ],
-        "vsicons.associations.folders": [
-            {
-                "icon": "script",
-                "extensions": ["scr"],
-                "format": "svg"
-            }
-        ],
-        "vsicons.presets.hideExplorerArrows": true,
-        "files.associations": {
-            ".clang-format": "yaml",
-            ".clang-tidy": "yaml",
-            ".clangd": "yaml",
-            "*.inc": "cpp",
-            "*.inl": "cpp"
-        },
-        "hediet.vscode-drawio.appearance": "automatic",
-        "clangd.enable": true,
-        /** /// Windows Paths
-        "clangd.path": "C:\\Tools\\LLVM\\bin\\clangd.exe",
-        "cmake.cmakePath": "C:\\Tools\\CMake\\bin\\cmake.exe",
-        "git.path": "C:\\Tools\\Git\\bin\\git.exe",
-        /** /// Msys2 Paths
-        "clangd.path": "C:\\msys64\\clang64\\bin\\clangd.exe",
-        "cmake.cmakePath": "C:\\msys64\\usr\\bin\\cmake.exe",
-        "git.path": "C:\\msys64\\usr\\bin\\git.exe",
-        /** /// Linux Paths
-        "clangd.path": "/usr/bin/clangd",
-        "cmake.cmakePath": "/usr/bin/cmake",
-        "git.path": "/usr/bin/git",
-        //*/
-        "editor.semanticHighlighting.enabled": true,
-        "editor.semanticTokenColorCustomizations": {
-            "rules": {
-                "class": "#ffef63",
-                "enum": "#5fb2fa",
-                "function": "#df9fff",
-                "enumMember": "#b4b4b4",
-                "namespace": "#ffa846",
-                "struct": "#ffef63",
-                "variable": "#fefefe",
-                "property": "#b4b4b4",
-                "parameter": "#60ffc5",
-                "macro": "#df9fff",
-                "method": "#df9fff"
-            }
-        },
-        "terminal.integrated.defaultProfile.windows": "PowerShell",
-        "terminal.integrated.profiles.windows": {
-            "Bash": {
-                "overrideName": true,
-                "path": "bash.exe",
-                "icon": "terminal-git-bash"
-            },
-            "Zsh": {
-                "overrideName": true,
-                "path": "zsh.exe",
-                "icon": "terminal-git-bash"
-            },
-            "Ksh": {
-                "overrideName": true,
-                "path": "ksh.exe",
-                "icon": "terminal-git-bash"
-            },
-            "Fish": {
-                "overrideName": true,
-                "path": "fish.exe",
-                "icon": "terminal-git-bash"
-            },
-            "TMux": {
-                "overrideName": true,
-                "path": "tmux.exe",
-                "icon": "terminal-git-bash"
-            }
-        },
-        "powershell.cwd": "Main"
     }
 }
