@@ -1,17 +1,16 @@
 {
     "folders": [
         {
-            "name": "Main",
+            "name": "Hub",
             "path": "."
-        }/** ///
+        }/**///
         ,{
             "name": "Msys2",
-            "path": "C:\\msys64"
-        }/** ///
+            "path": "/",
+        }/**///
         ,{
             "name": "Zenhance",
-            "path": "..\\..\\..\\Documents\\ZShell\\Scripts\\Zenhance"
-            //"path": "../../../.config/zsh/zenhance"
+            "path": "/home/d.sprehe/config/zsh/zenhance"
         }/** ///
         ,{
             "name": "PSenhance",
@@ -92,52 +91,29 @@
         },
         "terminal.integrated.defaultProfile.windows": "PowerShell",
         "terminal.integrated.profiles.windows": {
-            "PowerShell": {
-                "path": "pwsh.exe",
-                "icon": "terminal-powershell"
-            },
-            "Command Prompt": {
-                "path": [
-                    "${env:windir}\\Sysnative\\cmd.exe",
-                    "${env:windir}\\System32\\cmd.exe"
-                ],
-                "args": [],
-                "icon": "terminal-cmd"
-            },
-            "Clang64 (MSYS)": {
+            "Bash": {
                 "overrideName": true,
-                "path": "msys",
-                "args": ["-e", "clang64", "-s", "zsh"],
+                "path": "bash.exe",
                 "icon": "terminal-git-bash"
             },
-            "ClangArm64 (MSYS)": {
+            "Zsh": {
                 "overrideName": true,
-                "path": "msys",
-                "args": ["-e", "clangarm64", "-s", "zsh"],
+                "path": "zsh.exe",
                 "icon": "terminal-git-bash"
             },
-            "MinGW64 (MSYS)": {
+            "Ksh": {
                 "overrideName": true,
-                "path": "msys",
-                "args": ["-e", "mingw64", "-s", "zsh"],
+                "path": "ksh.exe",
                 "icon": "terminal-git-bash"
             },
-            "MinGW32 (MSYS)": {
+            "Fish": {
                 "overrideName": true,
-                "path": "msys",
-                "args": ["-e", "mingw32", "-s", "zsh"],
+                "path": "fish.exe",
                 "icon": "terminal-git-bash"
             },
-            "UCRT64 (MSYS)": {
+            "TMux": {
                 "overrideName": true,
-                "path": "msys",
-                "args": ["-e", "ucrt64", "-s", "zsh"],
-                "icon": "terminal-git-bash"
-            },
-            "Msys2 Shell": {
-                "overrideName": true,
-                "path": "msys",
-                "args": ["-s", "zsh"],
+                "path": "tmux.exe",
                 "icon": "terminal-git-bash"
             }
         },
