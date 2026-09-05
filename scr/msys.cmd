@@ -298,7 +298,21 @@ goto main
       set "terminal=-defterm"
     )
 
+    set "ClrBold="
+    set "ClrDim="
+    set "ClrUnderline="
+    set "ClrRed="
+    set "ClrYellow="
+    set "ClrGreen="
+    set "ClrReset="
+    set "c_arg="
+    set "d_arg="
+    set "e_arg="
+    set "f_arg="
+    set "p_arg="
+    set "s_arg="
+    set "t_arg="
+
     rem echo Starting MSYS2 shell with the following options:
     rem echo %msys_root%\msys2_shell.cmd %terminal% %fork% %paths% %environment% %directory% %shell% %command%
-
     %msys_root%\msys2_shell.cmd %terminal% %fork% %paths% %environment% %directory% %shell% %command%
